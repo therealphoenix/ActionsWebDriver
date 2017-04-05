@@ -41,7 +41,7 @@ public class BackgroundTest {
   @Test
   public void backgroundImageTest() {
 	Assert.assertEquals(header.getQAElementBackground(), beforeClickModel);  
-	Assert.assertEquals(header.moveAndClick(), afterClickModel);  
+	Assert.assertEquals(header.moveToQAandClick(), afterClickModel);  
   }
   
 

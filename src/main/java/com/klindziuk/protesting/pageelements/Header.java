@@ -40,7 +40,7 @@ public class Header {
 		return driver.findElement(Header.qualityAssuranceLocator).getCssValue("background");
 	}
 
-	public String moveAndClick() {
+	public String moveToQAandClick() {
 		System.setProperty("webdriver.chrome.driver", "D:/Java/Chrome/chromedriver.exe");
 		driver.manage().window().maximize();
 		// waiting for page load
