@@ -5,7 +5,10 @@ import com.klindziuk.protesting.page.Automation;
 import com.klindziuk.protesting.pageelements.Footer;
 import com.klindziuk.protesting.pageelements.Header;
 import com.klindziuk.protesting.pageelements.MainMenu;
+import com.klindziuk.protesting.pageelements.PageElements;
 import com.klindziuk.protesting.util.BrowserDriver;
+import com.klindziuk.protesting.util.SingletonDriver;
+
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -23,17 +26,15 @@ public class BackgroundTest {
 	
     @BeforeSuite
   public void beforeSuite() {
-    	driver = BrowserDriver.CHROME.selectDriver();
-    	footer = new Footer(driver);
-    	header = new Header(driver);
-    	mainMenu = new MainMenu(driver);
-        automation = new Automation(driver);
+    	driver = SingletonDriver.getInstance().getDriver();
+    	automation = new Automation(driver);
   	  }
 
   @AfterSuite
   public void afterSuite() {
 	  driver.close();
 	  driver.quit();
+	  SingletonDriver.destroy();
   }
   
   @BeforeClass
@@ -43,7 +44,7 @@ public class BackgroundTest {
 
   @Test
   public void backgroundImageTest() {
-	Assert.assertEquals(mainMenu.getQAElementBackground(), beforeClickModel);  
-	Assert.assertEquals(mainMenu.moveToQAandClick(), afterClickModel);  
-  }
+	Assert.assertEquals(PageElements.MAINMENU.getQAElementBackground(), beforeClickModel);  
+	Assert.assertEquals(PageElements.MAINMENU.moveToQAandClick(), afterClickModel);
+	  }
  }

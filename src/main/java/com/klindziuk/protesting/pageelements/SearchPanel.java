@@ -6,10 +6,10 @@ import org.openqa.selenium.WebElement;
 
 public class SearchPanel {
 	WebDriver driver;
-	public static By googleSearchBoxLocator = By.cssSelector(".searchbox");
-	public static By googleSearchButtonLocator = By.cssSelector(".searchbutton");
-	public static By googlePlusLocator = By.cssSelector(".uzlpSb");
-	public static By facebookLikeLocator = By.cssSelector(
+	public static final By googleSearchBoxLocator = By.cssSelector(".searchbox");
+	public static final By googleSearchButtonLocator = By.cssSelector(".searchbutton");
+	public static final By googlePlusLocator = By.cssSelector(".uzlpSb");
+	public static final By facebookLikeLocator = By.cssSelector(
 			"div.pluginButton:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)");
 
 	public SearchPanel(WebDriver driver) {
@@ -39,11 +39,11 @@ public class SearchPanel {
 		pushSearchButton();
 	}
 
-	public void putPlusAtGooglePlus() {
+	public void clickGooglePlus() {
 		driver.findElement(googlePlusLocator).click();
 	}
 
-	public void putLikeAtFaceBook() {
+	public void clickFaceBook() {
 		driver.findElement(facebookLikeLocator).click();
 	}
 }

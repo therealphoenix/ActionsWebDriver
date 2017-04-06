@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Header {
 	WebDriver driver;
-	public static By mainSignLocator = By.cssSelector(
+	public static final By mainSignLocator = By.cssSelector(
 			"#sitename > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1)");
 
 	public Header(WebDriver driver) {
