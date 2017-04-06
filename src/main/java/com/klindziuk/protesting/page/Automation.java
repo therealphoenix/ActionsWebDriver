@@ -59,5 +59,4 @@ public class Automation {
 
 	public void openPracticeTab() {
 		/* Practice tab will be implemented ASAP */ }
-
 }
