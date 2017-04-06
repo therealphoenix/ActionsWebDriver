@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import com.klindziuk.protesting.page.Automation;
 import com.klindziuk.protesting.pageelements.Footer;
 import com.klindziuk.protesting.pageelements.Header;
+import com.klindziuk.protesting.pageelements.MainMenu;
 import com.klindziuk.protesting.util.BrowserDriver;
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +16,7 @@ public class BackgroundTest {
 	WebDriver driver;
 	Footer footer;
 	Header header;
+	MainMenu mainMenu;
 	Automation automation;
 	String beforeClickModel = "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box";
 	String afterClickModel = "rgb(240, 240, 240) url(\"http://www.protesting.ru/img/menuhover.jpg\") repeat-x scroll 0% 0% / auto padding-box border-box";
@@ -24,6 +26,7 @@ public class BackgroundTest {
     	driver = BrowserDriver.CHROME.selectDriver();
     	footer = new Footer(driver);
     	header = new Header(driver);
+    	mainMenu = new MainMenu(driver);
         automation = new Automation(driver);
   	  }
 
@@ -40,10 +43,7 @@ public class BackgroundTest {
 
   @Test
   public void backgroundImageTest() {
-	Assert.assertEquals(header.getQAElementBackground(), beforeClickModel);  
-	Assert.assertEquals(header.moveToQAandClick(), afterClickModel);  
+	Assert.assertEquals(mainMenu.getQAElementBackground(), beforeClickModel);  
+	Assert.assertEquals(mainMenu.moveToQAandClick(), afterClickModel);  
   }
-  
-
-
-}
+ }

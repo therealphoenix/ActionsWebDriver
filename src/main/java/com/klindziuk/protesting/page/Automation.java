@@ -15,4 +15,49 @@ public class Automation {
 	public Automation(WebDriver driver) {
 		this.driver = driver;
 	}
+
+	public String getBasicsConceptsLinkText() {
+		return driver.findElement(basicConceptsLocator).getText();
+	}
+
+	public String getLoadTestingLinkText() {
+		return driver.findElement(loadTestingLocator).getText();
+	}
+
+	public String getAutomationLinkText() {
+		return driver.findElement(automationFuncLocator).getText();
+	}
+
+	public String practiceLinkText() {
+		return driver.findElement(practiceLocator).getText();
+	}
+
+	public String toBookMarkStringText() {
+		return driver.findElement(toBookMarksLocator).getText();
+	}
+
+	public String toUpLinkText() {
+		return driver.findElement(toUpLocator).getText();
+	}
+
+	public void addToBookMark() {
+		driver.findElement(toBookMarksLocator).click();
+	}
+
+	public void toUp() {
+		driver.findElement(toUpLocator).click();
+	}
+
+	public void openBasicConceptsTab() {
+		/* Basic concepts tab will be implemented ASAP */ }
+
+	public void openLoadTestingTab() {
+		/* Load Testing tab will be implemented ASAP */ }
+
+	public void openAutomationTab() {
+		/* Automation tab be implemented ASAP */ }
+
+	public void openPracticeTab() {
+		/* Practice tab will be implemented ASAP */ }
+
 }
