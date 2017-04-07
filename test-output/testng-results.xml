@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11656" started-at="2017-04-06T16:40:27Z" finished-at="2017-04-06T16:40:39Z">
+  <suite name="Default suite" duration-ms="22566" started-at="2017-04-07T14:18:10Z" finished-at="2017-04-07T14:18:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11656" started-at="2017-04-06T16:40:27Z" finished-at="2017-04-06T16:40:39Z">
+    <test name="Default test" duration-ms="22566" started-at="2017-04-07T14:18:10Z" finished-at="2017-04-07T14:18:33Z">
       <class name="com.klindziuk.protesting.BackgroundTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeSuite" is-config="true" duration-ms="3719" started-at="2017-04-06T19:40:23Z" finished-at="2017-04-06T19:40:27Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeSuite" is-config="true" duration-ms="25256" started-at="2017-04-07T17:17:45Z" finished-at="2017-04-07T17:18:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeClass" is-config="true" duration-ms="5839" started-at="2017-04-06T19:40:27Z" finished-at="2017-04-06T19:40:33Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeClass" is-config="true" duration-ms="6513" started-at="2017-04-07T17:18:10Z" finished-at="2017-04-07T17:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="backgroundImageTest()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="backgroundImageTest" duration-ms="5770" started-at="2017-04-06T19:40:33Z" finished-at="2017-04-06T19:40:39Z">
+        <test-method status="PASS" signature="backgroundImageTest()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="backgroundImageTest" duration-ms="15786" started-at="2017-04-07T17:18:17Z" finished-at="2017-04-07T17:18:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backgroundImageTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="afterSuite" is-config="true" duration-ms="3977" started-at="2017-04-06T19:40:39Z" finished-at="2017-04-06T19:40:43Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="afterSuite" is-config="true" duration-ms="16773" started-at="2017-04-07T17:18:34Z" finished-at="2017-04-07T17:18:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

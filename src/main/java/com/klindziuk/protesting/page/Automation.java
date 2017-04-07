@@ -3,7 +3,7 @@ package com.klindziuk.protesting.page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Automation {
+public class Automation extends BasePage {
 	WebDriver driver;
 	
 public static final By basicConceptsLocator = By.cssSelector("");
@@ -14,6 +14,7 @@ public static final By toBookMarksLocator = By.cssSelector("#bookmarkLink");
 public static final By toUpLocator = By.cssSelector(".linktop > a:nth-child(1)");
 
 	public Automation(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
