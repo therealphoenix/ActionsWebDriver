@@ -15,6 +15,7 @@ public class BackgroundTest {
 	WebDriver driver;
 	Automation automation;
 	String beforeClickModel = "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box";
+	String beforeClickModel1 = "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box";
 	String afterClickModel = "rgb(240, 240, 240) url(\"http://www.protesting.ru/img/menuhover.jpg\") repeat-x scroll 0% 0% / auto padding-box border-box";
 	
     @BeforeClass
