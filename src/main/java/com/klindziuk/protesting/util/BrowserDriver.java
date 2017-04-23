@@ -2,13 +2,15 @@ package com.klindziuk.protesting.util;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 import java.io.IOException;
 
 public enum BrowserDriver {
 	
     CHROME(1);
 
-    public static final String BASEURL = "http://www.protesting.ru/automation/";
+    public static final String BASEURL = "http://www.protesting.ru/";
     private int index;
     BrowserDriver(int browserIndex) {
         this.index = browserIndex;
@@ -17,8 +19,11 @@ public enum BrowserDriver {
     public  WebDriver selectDriver() {
         switch (index) {
             case 1: {
+            	ChromeOptions ops = new ChromeOptions();
+                ops.addArguments("--disable-notifications");
                 System.setProperty("webdriver.chrome.driver", "D:/Java/Chrome/chromedriver.exe");
-                return new ChromeDriver();
+                return new ChromeDriver(ops);
+                
             }
             default: {
                 System.setProperty("webdriver.chrome.driver", "D:/Java/Chrome/chromedriver.exe");

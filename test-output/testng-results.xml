@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22566" started-at="2017-04-07T14:18:10Z" finished-at="2017-04-07T14:18:33Z">
+  <suite name="Suite" duration-ms="64781" started-at="2017-04-22T12:41:08Z" finished-at="2017-04-22T12:42:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22566" started-at="2017-04-07T14:18:10Z" finished-at="2017-04-07T14:18:33Z">
+    <test name="BackgroundTest" duration-ms="64781" started-at="2017-04-22T12:41:08Z" finished-at="2017-04-22T12:42:13Z">
       <class name="com.klindziuk.protesting.BackgroundTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeSuite" is-config="true" duration-ms="25256" started-at="2017-04-07T17:17:45Z" finished-at="2017-04-07T17:18:10Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeSuite" is-config="true" duration-ms="28087" started-at="2017-04-22T15:41:08Z" finished-at="2017-04-22T15:41:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="beforeClass" is-config="true" duration-ms="6513" started-at="2017-04-07T17:18:10Z" finished-at="2017-04-07T17:18:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="backgroundImageTest()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="backgroundImageTest" duration-ms="15786" started-at="2017-04-07T17:18:17Z" finished-at="2017-04-07T17:18:33Z">
+        <test-method status="PASS" signature="backgroundImageTest()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="backgroundImageTest" duration-ms="16905" started-at="2017-04-22T15:41:37Z" finished-at="2017-04-22T15:41:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backgroundImageTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="afterSuite" is-config="true" duration-ms="16773" started-at="2017-04-07T17:18:34Z" finished-at="2017-04-07T17:18:50Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.klindziuk.protesting.BackgroundTest@1ce4f0a]" name="afterSuite" is-config="true" duration-ms="9649" started-at="2017-04-22T15:42:13Z" finished-at="2017-04-22T15:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.klindziuk.protesting.ProtestingFacebookMessage@3a8624]" name="afterSuite" is-config="true" duration-ms="3533" started-at="2017-04-22T15:42:23Z" finished-at="2017-04-22T15:42:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.klindziuk.protesting.BackgroundTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.klindziuk.protesting.ProtestingFacebookMessage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.klindziuk.protesting.ProtestingFacebookMessage@3a8624]" name="beforeSuite" is-config="true" duration-ms="29379" started-at="2017-04-22T15:41:08Z" finished-at="2017-04-22T15:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="FacebookMessage()[pri:0, instance:com.klindziuk.protesting.ProtestingFacebookMessage@3a8624]" name="FacebookMessage" duration-ms="35335" started-at="2017-04-22T15:41:38Z" finished-at="2017-04-22T15:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookMessage -->
+      </class> <!-- com.klindziuk.protesting.ProtestingFacebookMessage -->
+    </test> <!-- BackgroundTest -->
+  </suite> <!-- Suite -->
 </testng-results>

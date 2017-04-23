@@ -1,5 +1,10 @@
 package com.klindziuk.protesting.pageelements;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -17,5 +22,14 @@ public class Header {
 
 	public String getMainSingLinkText() {
 		return driver.findElement(mainSignLocator).getText();
+	}
+	
+	public static void main(String[] args) {
+		Set<String> set = new HashSet<>();
+		set.add("d");
+		set.add("c");
+		set.add("b");
+		System.out.println(set.remove(1));
+		System.out.println(set);
 	}
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+  <test name="BackgroundTest">
+    <classes>
+      <class name="com.klindziuk.protesting.BackgroundTest"/>
+      <class name="com.klindziuk.protesting.ProtestingFacebookMessage"/>
+    </classes>
+      </test> <!-- Test -->
+</suite> <!-- Suite -->

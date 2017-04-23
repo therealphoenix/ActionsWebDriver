@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="classes">
+  <test name="BackgroundTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.klindziuk.protesting.ProtestingFacebookMessage">
+        <methods>
+          <include name="FacebookMessage"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.klindziuk.protesting.ProtestingFacebookMessage -->
+      <class name="com.klindziuk.protesting.BackgroundTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.klindziuk.protesting.BackgroundTest -->
+    </classes>
+  </test> <!-- BackgroundTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

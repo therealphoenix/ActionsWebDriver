@@ -8,8 +8,8 @@ import com.klindziuk.protesting.util.SingletonDriver;
 import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
+
 
 public class BackgroundTest {
 	WebDriver driver;
@@ -17,24 +17,21 @@ public class BackgroundTest {
 	String beforeClickModel = "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box";
 	String afterClickModel = "rgb(240, 240, 240) url(\"http://www.protesting.ru/img/menuhover.jpg\") repeat-x scroll 0% 0% / auto padding-box border-box";
 	
-    @BeforeSuite
+    @BeforeClass
   public void beforeSuite() {
     	driver = SingletonDriver.getInstance().getDriver();
     	automation = new Automation(driver);
+    	driver.get(BrowserDriver.BASEURL +"automation/");
   	  }
 
   @AfterSuite
   public void afterSuite() {
 	  driver.close();
 	  driver.quit();
-	  SingletonDriver.destroy();
+	//  SingletonDriver.destroy();
   }
   
-  @BeforeClass
-  public void beforeClass() {
-	  driver.get(BrowserDriver.BASEURL); 
-  }
-
+  
   @Test
   public void backgroundImageTest() {
 	Assert.assertEquals(automation.getMainMenu().getQAElementBackground(), beforeClickModel);  
