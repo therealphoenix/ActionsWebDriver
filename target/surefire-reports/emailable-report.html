@@ -29,18 +29,64 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">BackgroundTest</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">54,5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">BackgroundTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi_attn">1</td><td class="numi">46,3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">BackgroundTest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.klindziuk.protesting.ProtestingFacebookMessage<td><a href="#m1"><b>FacebookMessage</b>  </a></td><td class="numi">1</td><td>1493640661442</td><td class="numi">31796</td></tr>
-<tr class="passedeven"><td rowspan="1">com.klindziuk.protesting.BackgroundTest<td><a href="#m2"><b>backgroundImageTest</b>  </a></td><td class="numi">1</td><td>1493640681225</td><td class="numi">15557</td></tr>
+<tr><th colspan="4">BackgroundTest &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.klindziuk.protesting.BackgroundTest<td><a href="#m1"><b>beforeSuite</b>  </a></td><td class="numi">1</td><td>1493640762043</td><td class="numi">0</td></tr>
+<tr><th colspan="4">BackgroundTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.klindziuk.protesting.ProtestingFacebookMessage<td><a href="#m2"><b>FacebookMessage</b>  </a></td><td class="numi">1</td><td>1493640780978</td><td class="numi">27288</td></tr>
+<tr><th colspan="4">BackgroundTest &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.klindziuk.protesting.BackgroundTest<td><a href="#m3"><b>afterSuite</b>  </a></td><td class="numi">1</td><td>1493640808363</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.klindziuk.protesting.ProtestingFacebookMessage<td><a href="#m4"><b>afterSuite</b>  </a></td><td class="numi">1</td><td>1493640808364</td><td class="numi">0</td></tr>
+<tr><th colspan="4">BackgroundTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.klindziuk.protesting.BackgroundTest<td><a href="#m5"><b>backgroundImageTest</b>  </a></td><td class="numi">1</td><td>1493640763989</td><td class="numi">1</td></tr>
 </table>
 <h1>BackgroundTest</h1>
-<a id="m1"></a><h2>com.klindziuk.protesting.BackgroundTest:backgroundImageTest</h2>
+<a id="m1"></a><h2>com.klindziuk.protesting.BackgroundTest:beforeSuite</h2>
+<div style="padding-left:3em">
+<p>javax.mail.AuthenticationFailedException: 454 4.7.0 Too many login attempts, please try again later. t26sm1221078lja.25 - gsmtp
+</p>
+com.klindziuk.protesting.util.Mail.sendMail(Mail.java:43)
+<br/>at com.klindziuk.protesting.BackgroundTest.beforeSuite(BackgroundTest.java:26)
+<br/>14 lines not shown
+<p>Caused by 454 4.7.0 Too many login attempts, please try again later. t26sm1221078lja.25 - gsmtp
+</p>
+com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:823)
+<br/>at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:756)
+<br/>at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:673)
+<br/>at javax.mail.Service.connect(Service.java:317)
+<br/>at javax.mail.Service.connect(Service.java:176)
+<br/>at javax.mail.Service.connect(Service.java:125)
+<br/>at javax.mail.Transport.send0(Transport.java:194)
+<br/>at javax.mail.Transport.send(Transport.java:124)
+<br/>at com.klindziuk.protesting.util.Mail.sendMail(Mail.java:40)
+<br/>at com.klindziuk.protesting.BackgroundTest.beforeSuite(BackgroundTest.java:26)
+<br/>14 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <a id="m2"></a><h2>com.klindziuk.protesting.ProtestingFacebookMessage:FacebookMessage</h2>
+<div style="padding-left:3em">
+<p>Timed out after 5 seconds waiting for visibility of element located by By.id: expanding_cta_close_button
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;PK&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Windows\TEMP\scoped_dir1944_32523}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 70dc810b2dc46a1cc9920e75c4742e73</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+<br/>at com.klindziuk.protesting.page.FacebookPage.waitFor(FacebookPage.java:62)
+<br/>at com.klindziuk.protesting.page.FacebookPage.cancelClick(FacebookPage.java:34)
+<br/>at com.klindziuk.protesting.ProtestingFacebookMessage.FacebookMessage(ProtestingFacebookMessage.java:37)
+<br/>14 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.klindziuk.protesting.BackgroundTest:afterSuite</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.klindziuk.protesting.ProtestingFacebookMessage:afterSuite</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.klindziuk.protesting.BackgroundTest:backgroundImageTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

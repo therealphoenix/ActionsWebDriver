@@ -12,10 +12,10 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class Mail {
-	private static final String RECIEVER = "reciever@gmail.com";
-	private static final String SENDER = "sender@gmail.com";
-	private static final String USERNAME = "username@gmail.com";
-	private static final String PASSWORD = "password";
+	private static final String RECIEVER = "fennya@gmail.com";
+	private static final String SENDER = "fennya@gmail.com";
+	private static final String USERNAME = "fennya@gmail.com";
+	private static final String PASSWORD = "breaking";
 	private static final String MSG = "Hey Klindziuk, tests started after commit at " + new Date().toString();
 
 	public void sendMail() {
