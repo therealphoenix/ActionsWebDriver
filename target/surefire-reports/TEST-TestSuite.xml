@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="29.906" tests="5" errors="0" skipped="3" failures="2">
+<testsuite name="TestSuite" time="37.821" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="WebDriver"/>
@@ -27,8 +27,8 @@
     <property name="Gecko" value="D:\FireFox\geckodriver.exe"/>
     <property name="user.language" value="ru"/>
     <property name="JOB_BASE_NAME" value="WebDriver"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/WebDriver/23/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#23"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/WebDriver/24/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#24"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
     <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="44974f5aecbf678e424ba01830e10783a92bd1dd"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
@@ -40,7 +40,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="23"/>
+    <property name="BUILD_ID" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -55,13 +55,13 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
     <property name="CATALINA_HOME" value="D:\Java\Tomcat"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/WebDriver/23/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/WebDriver/24/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.51-b03"/>
     <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="44974f5aecbf678e424ba01830e10783a92bd1dd"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="1fb3c76962fb0063969c5b4c3f71c7c4a565cce6"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/WebDriver/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -78,7 +78,7 @@
     <property name="POM_GROUPID" value="ProTesting"/>
     <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-WebDriver-23"/>
+    <property name="BUILD_TAG" value="jenkins-WebDriver-24"/>
     <property name="JENKINS_SERVER_COOKIE" value="0cbe1ca61a73e24c"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -92,7 +92,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\Java\maven"/>
     <property name="java.class.path" value="D:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.8.1.jar;D:\Java\maven\boot\plexus-classworlds-2.5.2.jar;D:\Java\maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Java\maven D:\Program Files\Jenkins\war\WEB-INF\lib\remoting-3.7.jar D:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar D:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 52283"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main D:\Java\maven D:\Program Files\Jenkins\war\WEB-INF\lib\remoting-3.7.jar D:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar D:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 52488"/>
     <property name="Path" value="D:\Program Files\Java\jdk1.8.0_51/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Mozilla Firefox\firefox.exe;C:\SERVER\bin;PATH=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Mozilla Firefox\firefox.exe;C:\SERVER\bin;PATH=C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Mozilla Firefox\firefox.exe;C:\SERVER\bin;PATH=C:\Windows\System32;D:\Program Files\Java\jdk1.8.0_51\bin;D:\Java\Tomcat\bin;D:\Java\maven\bin;D:\Git\cmd;D:\FireFox\geckodriver;C:\Program Files (x86)\Skype\Phone\;D:\Program Files\Java\jdk1.8.0_51\bin;D:\Java\Tomcat\bin;D:\Java\maven\bin;D:\Git\cmd;D:\FireFox\geckodriver;C:\Program Files (x86)\Skype\Phone\;D:\Program Files\Java\jdk1.8.0_51\bin;D:\Java\Tomcat\bin;D:\Java\maven\bin;D:\Git\cmd;D:\FireFox\geckodriver;C:\Program Files (x86)\Skype\Phone\;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -107,7 +107,7 @@
     <property name="HUDSON_HOME" value="D:\Program Files\Jenkins"/>
     <property name="PATH+MAVEN" value="D:\Java\maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/WebDriver/23/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/WebDriver/24/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -121,14 +121,14 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="D:\Java\maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="23"/>
+    <property name="BUILD_NUMBER" value="24"/>
     <property name="BASE" value="D:\Program Files\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="170a"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
-    <property name="GIT_COMMIT" value="1fb3c76962fb0063969c5b4c3f71c7c4a565cce6"/>
+    <property name="GIT_COMMIT" value="6ee5cc9329c99daafc92e4aaca65e885751eedec"/>
     <property name="file.encoding" value="Cp1251"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="D:\Program Files\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar"/>
@@ -140,48 +140,6 @@
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
     <property name="GIT_URL" value="https://github.com/therealphoenix/ActionsWebDriver.git"/>
   </properties>
-  <testcase name="beforeSuite" classname="com.klindziuk.protesting.BackgroundTest" time="2.618">
-    <failure message="javax.mail.AuthenticationFailedException: 454 4.7.0 Too many login attempts, please try again later. t26sm1221078lja.25 - gsmtp&#10;" type="java.lang.RuntimeException">java.lang.RuntimeException: javax.mail.AuthenticationFailedException: 454 4.7.0 Too many login attempts, please try again later. t26sm1221078lja.25 - gsmtp
-
-	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:823)
-	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:756)
-	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:673)
-	at javax.mail.Service.connect(Service.java:317)
-	at javax.mail.Service.connect(Service.java:176)
-	at javax.mail.Service.connect(Service.java:125)
-	at javax.mail.Transport.send0(Transport.java:194)
-	at javax.mail.Transport.send(Transport.java:124)
-	at com.klindziuk.protesting.util.Mail.sendMail(Mail.java:40)
-	at com.klindziuk.protesting.BackgroundTest.beforeSuite(BackgroundTest.java:26)
-</failure>
-    <system-err>Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 30222
-Only local connections are allowed.
-</system-err>
-  </testcase>
-  <testcase name="backgroundImageTest" classname="com.klindziuk.protesting.BackgroundTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="FacebookMessage" classname="com.klindziuk.protesting.ProtestingFacebookMessage" time="27.288">
-    <failure message="Timed out after 5 seconds waiting for visibility of element located by By.id: expanding_cta_close_button&#10;Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;&#10;System info: host: &apos;PK&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_51&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Windows\TEMP\scoped_dir1944_32523}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 70dc810b2dc46a1cc9920e75c4742e73" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.id: expanding_cta_close_button
-Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
-System info: host: 'PK', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_51'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Windows\TEMP\scoped_dir1944_32523}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 70dc810b2dc46a1cc9920e75c4742e73
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at com.klindziuk.protesting.page.FacebookPage.waitFor(FacebookPage.java:62)
-	at com.klindziuk.protesting.page.FacebookPage.cancelClick(FacebookPage.java:34)
-	at com.klindziuk.protesting.ProtestingFacebookMessage.FacebookMessage(ProtestingFacebookMessage.java:37)
-</failure>
-    <system-err>мая 01, 2017 3:12:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase name="afterSuite" classname="com.klindziuk.protesting.BackgroundTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterSuite" classname="com.klindziuk.protesting.BackgroundTest" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="backgroundImageTest" classname="com.klindziuk.protesting.BackgroundTest" time="14.661"/>
+  <testcase name="FacebookMessage" classname="com.klindziuk.protesting.ProtestingFacebookMessage" time="23.16"/>
 </testsuite>
